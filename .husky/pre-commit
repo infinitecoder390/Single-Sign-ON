@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install lint-staged
+#npm run lint
+
+#npm run lint
+# add more custom commands 👇
+#npm run pretty-quick
